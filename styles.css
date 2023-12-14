@@ -67,7 +67,6 @@ img {
     font-family: 'Indie Flower', cursive; line-height: 1.5;
     box-shadow: .25em .25em .75em 0 rgba(80,80,80, 0.5);
     font-size: 1.2em;
-    margin: 0.5rem;
 }
 .footertop {
     display: flex;
@@ -104,9 +103,6 @@ img {
 .quotethree {
     background: linear-gradient(to bottom, #e6effd 0%, #b3d0fb 70%, #96befa);
     text-shadow: .0625em .0625em 0 #fff;
-    height: 7.5em;
-    margin-left: 10%;
-    width: 19.375em;
 }
 .quotethree::before,
 .quotethree::after {
@@ -126,7 +122,6 @@ img {
     position: relative;
     font-family: 'Barlow Condensed', sans-serif;
     max-width: 38.75em;
-    margin-right: 1%;
     align-self: center;
 }
 
