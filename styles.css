@@ -45,7 +45,7 @@ img {
 .bx {
     margin: 1em auto;
     padding: 1em 2em;
-    border: solid 1px #808080;
+    border: solid .0625em #808080;
     display: inline-block;
     position: relative;
     font-size: 1.1250em;
@@ -80,7 +80,7 @@ img {
 .quotetwo {
     max-width: 13.75em;
     border-radius: 40%;
-    border: solid 4px rgba(12,58,168,1.0);
+    border: solid .25em rgba(12,58,168,1.0);
     margin-right: 8%;
 }
 .quotetwo::before,
@@ -96,7 +96,7 @@ img {
     border: solid .25em rgba(12,58,168,0.8)
 }
 .quotetwo::after {
-    bottom: -28px; left: 74%;
+    bottom: -1.75em; left: 74%;
     height: .75em; width: .75em;
     border: solid .25em rgba(12,58,168,0.8)
 }
@@ -107,7 +107,7 @@ img {
 }
 .quotethree {
     background: linear-gradient(to bottom, #e6effd 0%, #b3d0fb 70%, #96befa);
-    text-shadow: 1px 1px 0 #fff;
+    text-shadow: .0625em .0625em 0 #fff;
     height: 7.5em;
     margin-left: 10%;
     width: 19.375em;
@@ -148,7 +148,7 @@ img {
 .quotefour .left:after {
     content:"";
     position:absolute;
-    border:2px solid;
+    border:.125em solid;
     border-radius: 0 3.125em 0 0;
     width: 3.75em;
     height: 3.75em;
