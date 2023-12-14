@@ -96,7 +96,7 @@ img {
 
 .footerbottom {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 .quotethree {
     background: linear-gradient(to bottom, #e6effd 0%, #b3d0fb 70%, #96befa);
@@ -126,13 +126,13 @@ img {
 .quotefour .left {
     font-family: 'Abril Fatface', cursive;
     position: relative;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: normal;
     line-height: 1;
     margin: 0;
     border: solid .125em;
     border-radius: 1.25em;
-    padding: 1.56em;
+    padding: 1.25em;
 }
 .quotefour .left:after {
     content:"";
@@ -164,7 +164,7 @@ img {
     margin: 0;
     padding-top: .9375em;
     z-index: 1;
-    margin-left: 9.375em;
+    margin-left: 6.375em;
     padding-left: .75em;
 }
 
