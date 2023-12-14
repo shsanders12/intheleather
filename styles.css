@@ -68,20 +68,16 @@ img {
     box-shadow: .25em .25em .75em 0 rgba(80,80,80, 0.5);
     font-size: 1.2em;
     margin: 0.5rem;
-    margin-left: 5%;
 }
 .footertop {
     display: flex;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 .quotetwo {
     max-width: 13.75em;
     border-radius: 40%;
     border: solid .25em rgba(12,58,168,1.0);
-    margin-right: 8%;
 }
 .quotetwo::before,
 .quotetwo::after {
