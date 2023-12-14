@@ -96,7 +96,7 @@ img {
 
 .footerbottom {
     display:flex;
-    justify-content:space-between;
+    justify-content: space-evenly;
 }
 .quotethree {
     background: linear-gradient(to bottom, #e6effd 0%, #b3d0fb 70%, #96befa);
@@ -132,7 +132,7 @@ img {
     margin: 0;
     border: solid .125em;
     border-radius: 1.25em;
-    padding: 1.56em;
+    padding: .5em;
 }
 .quotefour .left:after {
     content:"";
