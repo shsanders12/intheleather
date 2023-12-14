@@ -48,7 +48,7 @@ img {
     border: solid .0625em #808080;
     display: inline-block;
     position: relative;
-    font-size: 1.1250em;
+    font-size: 1em;
     max-width: 25em;
     font-family: sans-serif;
 }
@@ -61,10 +61,8 @@ img {
 .quoteone {
     background-color: rgba(240,230,165, 0.6);
     border-radius: 15.94em .94em 14.01em .94em / .75em 14.01em .94em 14.01em;
-    height: 9.375em;
-    width: 19.375em;
     text-align: center;
-    font-family: 'Indie Flower', cursive; line-height: 1.5;
+    font-family: 'Indie Flower', cursive; line-height: 1;
     box-shadow: .25em .25em .75em 0 rgba(80,80,80, 0.5);
     font-size: 1.2em;
 }
@@ -107,7 +105,7 @@ img {
 .quotethree::before,
 .quotethree::after {
     content: "";
-    position: absolute;
+    position: relative;
     bottom: .1875em; left: .25em; width: 49.0%; height: 1.25em;
     z-index: -100;
     background: white;
