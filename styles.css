@@ -3,8 +3,6 @@
     height: 7.2em;
     background-color: #708090;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 .logo {
     padding-left: 5%;
@@ -41,7 +39,7 @@ a {
     justify-content: center;
 }
 img {
-    border: 3px solid whitesmoke;
+    border: .1875em solid whitesmoke;
 }
 
 .bx {
@@ -62,12 +60,12 @@ img {
 }
 .quoteone {
     background-color: rgba(240,230,165, 0.6);
-    border-radius: 255px 15px 225px 15px / 12px 225px 15px 225px;
+    border-radius: 15.94em .94em 14.01em .94em / .75em 14.01em .94em 14.01em;
     height: 9.375em;
     width: 19.375em;
     text-align: center;
     font-family: 'Indie Flower', cursive; line-height: 1.5;
-    box-shadow: 4px 4px 12px 0 rgba(80,80,80, 0.5);
+    box-shadow: .25em .25em .75em 0 rgba(80,80,80, 0.5);
     font-size: 1.2em;
     margin: 0.5rem;
     margin-left: 5%;
@@ -99,7 +97,7 @@ img {
 }
 .quotetwo::after {
     bottom: -28px; left: 74%;
-    height: 12px; width: 12px;
+    height: .75em; width: .75em;
     border: solid .25em rgba(12,58,168,0.8)
 }
 
@@ -118,15 +116,15 @@ img {
 .quotethree::after {
     content: "";
     position: absolute;
-    bottom: 3px; left: 4px; width: 49.0%; height: 20px;
+    bottom: .1875em; left: .25em; width: 49.0%; height: 1.25em;
     z-index: -100;
     background: white;
     transform: rotate(-2deg);
-    box-shadow: 0 6px 8px 0 rgba(40,40,40, 1.0);
+    box-shadow: 0 .375em .5em 0 rgba(40,40,40, 1.0);
 }
 .quotethree::after {
     transform: rotate(2deg);
-    left: auto; right: 4px;
+    left: auto; right: .25em;
 }
 .quotefour {
     position: relative;
@@ -143,19 +141,19 @@ img {
     font-weight: normal;
     line-height: 1;
     margin: 0;
-    border: solid 2px;
-    border-radius: 20px;
+    border: solid .125em;
+    border-radius: 1.25em;
     padding: 1.56em;
 }
 .quotefour .left:after {
     content:"";
     position:absolute;
     border:2px solid;
-    border-radius: 0 50px 0 0;
-    width: 60px;
-    height: 60px;
-    bottom: -62px;
-    left: 50px;
+    border-radius: 0 3.125em 0 0;
+    width: 3.75em;
+    height: 3.75em;
+    bottom: -3.875em;
+    left: 3.125em;
     border-bottom: none;
     border-left: none;
     z-index: 3;
@@ -163,10 +161,10 @@ img {
 .quotefour .left:before {
     content:"";
     position:absolute;
-    width: 80px;
-    border: 6px solid white;
-    bottom: -3px;
-    left: 50px;
+    width: 5em;
+    border: .375em solid white;
+    bottom: -.1875em;
+    left: 3.125em;
     z-index: 2;
 }
 .quotefour .author {
@@ -175,10 +173,10 @@ img {
     font-weightL 400;
     line-height: 1.2;
     margin: 0;
-    padding-top: 15px;
+    padding-top: .9375em;
     z-index: 1;
     margin-left: 9.375em;
-    padding-left: 12px;
+    padding-left: .75em;
 }
 
 
